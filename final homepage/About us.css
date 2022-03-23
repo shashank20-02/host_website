@@ -1,0 +1,46 @@
+main{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+main .container{
+    width: 80vw;
+    height: 60vh;
+}
+
+.container_btn{
+    height: max-content;
+    width: 20rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.img_car{
+    width: 80rem;
+    height: 32rem;
+}
+
+@media only screen and (max-width:640px){
+    main .container{
+        width: 94vw;
+        height: 65vh;
+    }
+
+    .head5 h5{
+        font-size: 1rem;
+    }
+    .head5 p{
+        font-size: 1rem;
+    }
+
+    .btn_user{
+        width: 10rem;
+        height: 2.5rem;
+    }
+    
+}

@@ -1,0 +1,62 @@
+*{
+    margin: 0;padding: 0;
+}
+
+body{
+    background-image: url(images/background2.jpg);
+}
+
+.navbar a{
+    margin-right: 1rem;
+}
+
+.navbar-nav a:hover{
+    border-bottom: 2px solid aqua;
+}
+
+footer{
+    /* border:2px solid green; */
+    height: 7vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo img{
+    width: 3rem;
+    height: 2rem;
+    padding: 0 .5rem;
+}
+
+.logo img:hover{
+    width: 3.25rem;
+    height: 2.25rem;
+}
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation : portrait){
+    footer{
+        /* border:2px solid green; */
+        height: 6vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .navbar{
+        background-color: black;
+    }
+}
+
+@media only screen and (max-width:640px){
+    footer{
+        /* border:2px solid green; */
+        height: 6vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .navbar{
+        background-color: black;
+    }
+}
+
